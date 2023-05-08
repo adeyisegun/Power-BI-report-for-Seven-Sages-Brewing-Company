@@ -1,28 +1,13 @@
 Power BI report for Seven Sages Brewing Company
 
-In this project, we create a data model and Power BI report for Seven Sages Brewing Company that combines information from all over the company. Our data model makes it possible for the company's CFO to quickly review and analyze what beers sell well and which ones generate the highest profitability.
+This project focuses on creating a comprehensive Power BI report for Seven Sages Brewing Company, enabling the CFO to gain valuable insights into the company's sales performance and profitability. By combining and centralizing data from various sources, the report provides a holistic view of the business, highlighting top-selling beers and identifying the most profitable products.
 
-We use PowerBI to combine and centralize data that was previously siloed, solving a very common issue facing many companies. More importantly, we also apply PowerBI key concepts to Get data, Transform data in Power Query, Create Date Table, Build Relationships, write Dax Measures and build a Report.
+Utilizing Power BI's key functionalities, we employ a structured approach to develop the report. The project begins with sourcing and familiarizing ourselves with the provided data files from Seven Sages Brewing Company. We then proceed to sketch out the data model, ensuring it captures all relevant information for analysis.
 
+Using Power Query, we employ data transformation techniques to prepare and shape the data for analysis. This includes cleaning, filtering, and aggregating the data to derive meaningful insights. Furthermore, we create a date table to facilitate time-based analysis and build relationships between different tables to establish connections and enable seamless data exploration.
 
-Main Steps
-Here are the main steps.
+To meet the CFO's requirements, we write DAX measures that calculate crucial metrics such as Sales in USD ($), Cost of Sales in USD ($), and Gross Profit Margin (GPM) in USD (%). Additionally, considering the company's operations in multiple currencies, we incorporate measures to evaluate Sales in CAD ($) and analyze unit sales by product as a percentage.
 
-- Source files. Download and familiarize yourself with the source files provided by SSBC.
-- Sketch the data model. Sketch out the data model.
-- Get and Transform data in Power Query
-- Create date table. Create a date table to support time intelligence.
-- Build relationships between tables. Build a relationship from each dimension to the relevant key on the fact table.
-- Write Dax Measures. To satisfy the CFO's requirements, we will need to write six measures—to calculate Sales, Cost of Sales and Gross Profit Margin in two different currencies.
-- Create a report. Build a basic visual report to display your findings.
+Finally, we leverage Power BI's visualization capabilities to create a visually appealing and informative report. The report showcases sales performance, profitability, and the share of gross profit by product type, providing actionable insights for strategic decision-making.
 
-
-
-Calculated Measures
-
-Sales in USD ($)
-Cost of Sales USD ($)
-Gross Profit Margin (or GPM) in USD (%)
-Sales in CAD ($)
-Unit Sales by Product (%)
-Share of gross profit by Product type (%)
+Through this project, we demonstrate proficiency in data modeling, data transformation, DAX calculations, and report building using Power BI. The Power BI report enables Seven Sages Brewing Company to gain a comprehensive understanding of their sales and profitability, facilitating data-driven decision-making for sustainable business growth.
